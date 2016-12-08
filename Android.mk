@@ -9,7 +9,7 @@ include $(CLEAR_VARS)
 #                 preferred to thumb mode for libjpeg-turbo.
 LOCAL_ARM_MODE := arm
 
-LOCAL_CFLAGS := -O3 -fstrict-aliasing
+LOCAL_CFLAGS := -O3 -fstrict-aliasing -fno-align-jumps -fno-align-functions -fno-align-loops -fno-align-labels
 LOCAL_CFLAGS += -Wno-unused-parameter -Werror
 LOCAL_CFLAGS += -DJDCT_DEFAULT=JDCT_IFAST
 
