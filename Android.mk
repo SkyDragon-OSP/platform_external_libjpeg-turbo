@@ -9,6 +9,7 @@ include $(CLEAR_VARS)
 #                 preferred to thumb mode for libjpeg-turbo.
 LOCAL_ARM_MODE := arm
 
+
 LOCAL_SRC_FILES := \
     jcapimin.c jcapistd.c jccoefct.c jccolor.c jcdctmgr.c jchuff.c \
     jcinit.c jcmainct.c jcmarker.c jcmaster.c jcomapi.c jcparam.c \
